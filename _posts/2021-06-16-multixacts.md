@@ -28,7 +28,7 @@ PG 支持4种行锁模式: FOR KEY SHARE, FOR SHARE, FOR NO KEY UPDATE, FOR UPDA
 |FOR UPDATE| X  | X | X  | X |
 
 
-#2 行锁上锁流程
+# 2 行锁上锁流程
 
 PG 使用LockRows算子对行进行上锁. LockRows 对下层查询执行之后得到的tuple依次进行上锁
 
