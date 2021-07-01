@@ -1,5 +1,5 @@
 ---
-layout:     linux   						
+layout:     post   						
 title:      PG中的 xmax与 multixact机制(1) # 标题 
 subtitle:    #副标题
 date:       2021-06-26 				# 时间
