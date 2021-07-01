@@ -121,4 +121,6 @@ infomask中,有位信息用来表示tuple的xmax字段记录的xid是持有该tu
 
 修改完tuple的以上这些信息之后, 还需要写一条关于这个行锁的XLOG记录, 这个XLOG里会记录tuple tid, 持有该行锁的事务xid, 以及tuple的infomask,infomask2信息.
 
+通过上述过程,就完成了上行锁的流程.
 
+下一篇笔记会记录以下行锁中关于multixact机制的解析.
