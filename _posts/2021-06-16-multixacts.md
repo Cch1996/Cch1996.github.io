@@ -20,6 +20,7 @@ tags:								#标签
 PG 支持4种行锁模式: FOR KEY SHARE, FOR SHARE, FOR NO KEY UPDATE, FOR UPDATE, 其中FOR KEY SHARE和 FOR SHARE为 SHARE模式的行锁, FOR NO KEY UPDATE和 FOR UPDATE是EXCLUSIVE模式的行锁。
 
 锁冲突表如下
+
 ||  FOR KEY SHARE   | FOR SHARE  |  FOR NO KEY UPDATE   | FOR UPDATE  |
 |---|  ----  | ----  | ----   | ----  |
 |FOR KEY SHARE |  |  |   | X |
